@@ -1,5 +1,8 @@
 # ======== Data Types in Python ============
 
+# There are 4 basics data types in python
+# We can only concat with same data type
+
 # ---> type of data
 name = 'bro'
 print(type(name))
@@ -28,6 +31,9 @@ print("Your height is " + str(height))
 print(type(height))
 
 # ----> BOOLEAN (true or false)
+
+isStudent = False
+print(isStudent)
 
 
 
