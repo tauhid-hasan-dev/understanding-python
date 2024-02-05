@@ -24,10 +24,13 @@ print(type(age))
 
 height = 230.50
 print(height)
-print("Your height is saaaaaaaa " + str(height))
+print("Your height is " + str(height))
 print(type(height))
 
-# ----> BOOLEAN
+# ----> BOOLEAN (true or false)
+
+
+
 
 
 
