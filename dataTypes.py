@@ -27,6 +27,7 @@ print(height)
 print("Your height is saaaaaaaa " + str(height))
 print(type(height))
 
+# ----> BOOLEAN
 
 
 
