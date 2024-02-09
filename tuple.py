@@ -11,7 +11,6 @@ print(student.index("male"))
 
 for x in student:
     print(x)
-
 if 22 in student:
     print('there is 28 in student')
 else:
