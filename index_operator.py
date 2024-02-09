@@ -3,7 +3,7 @@
 
 name = "tauhid Hasan!"
 
-if(name[0].islower()):
+if name[0].islower():
     name = name.capitalize()
 
 first_name = name[:6].upper()
