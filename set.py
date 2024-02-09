@@ -17,7 +17,7 @@ dishes = {"bowl","plate", "cup", "muaz"}
 # --------> UNION METHOD
 # NOTE: Returns a new set with combined unique elements,
 #       Does not modify original set.
-# student_dorm_kitchen = dishes.union(students)
+student_dorm_kitchen = dishes.union(students)
 
 # --------> COMMONS between sets
 print(students.intersection(dishes))
@@ -25,8 +25,5 @@ print(students.intersection(dishes))
 # --------> UNCOMMON in targeted set
 print(students.difference(dishes))
 
-
-
-
-# for x in student_dorm_kitchen:
-#     print(x)
+for x in student_dorm_kitchen:
+    print(x)
