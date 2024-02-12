@@ -8,5 +8,5 @@ num = abs(num)
 num = round(num)
 print(num)
 
-# We can do same thing with nested funcitons
+# We can do same thing with nested functions
 print(round(abs(float(input("Enter a whole positive number: ")))))
