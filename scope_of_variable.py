@@ -11,28 +11,31 @@
 # B: Built-in scope
 
 # Global scope
-x = "This is global scope"
+x = 10
 
 
 def my_function():
     # Enclosing scope
-    y = "This is enclosing scope"
-    print(y)
+    y = 20
+
     def inner_function():
         # Local scope
-        z = "This is local scope"
-
-        print(z)
-
+        z = 30
+        # Using a built-in function
+        print("Inside inner_function:")
+        print("z (local):", z)
+        print("y (enclosing):", y)
+        print("x (global):", x)
         # Using the len() built-in function
         my_list = [1, 2, 3, 4, 5]
-        print("Built in function, Length of my_list:", len(my_list))
+        print("Length of my_list:", len(my_list))
 
     inner_function()
 
-
+my_function()
 print("Outside any function:")
 print("x (global):", x)
-my_function()
+
+
 
 
